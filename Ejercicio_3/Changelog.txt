@@ -1,0 +1,41 @@
+Simulador de expediciones de whitewood V3
+
+la tercera version continua y amplia el simulador creado en la primera entrega agregando e integrando las funciones de logica .
+
+Cambios respecto de V2
+
+- Se separó la entrada, el procesamiento y la salida de datos en cuatro funciones reutilizables.
+
+- Se incorporaron funciones declaradas, una función expresada y una función flecha.
+
+- Se utilizaron parámetros y argumentos en todas las funciones, y retornos explícitos e implícitos.
+
+- Se corrigió la ruta del script para coincidir con los archivos del proyecto.
+
+- Se simplificó la salida mediante toUpperCase() y se admiten espacios alrededor de ESC.
+
+- Se conserva el control de Cancelar al ingresar el nombre del líder, comprobando null antes de usar métodos de texto.
+
+- Se agregaron controles para nombres vacíos, viajeros o días decimales y valores numéricos no finitos.
+
+- Se usa Number() para convertir entradas completas y rechazar textos como 4abc.
+
+- Se agregó un contador de expediciones válidas con un resumen final en consola, sin duplicar los resultados mostrados en alertas.
+
+- Se conservan los cálculos de raciones de emergencia, el bucle while y los tres rangos de costo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++++ Gloria al Omnissiah +++
